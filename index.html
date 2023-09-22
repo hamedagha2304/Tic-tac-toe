@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بازی دوز آنلاین</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/overlays.css" />
+    <link rel="stylesheet" href="styles/configuration.css" />
+    <link rel="stylesheet" href="styles/game.css" />
+    <link rel="icon" type="Image/x-icon" href="favicon_io/favicon.ico" />
+    <script src="scripts/cofiguration.js" defer></script>
+    <script src="scripts/game.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+  </head>
+
+  <body>
+    <div id="backdrop"></div>
+    <header id="header-asli">
+      <h1>دوز بازی کن و عشق کن</h1>
+      <p>تقدیم به شما با عشق</p>
+    </header>
+    <aside class="modal" id="modal-style">
+      <h2>نام خود را انتخاب کنید</h2>
+      <form>
+        <div class="form-control">
+          <label for="esm-karbar">نام بازیکن</label>
+          <input type="text" name="esm-karbar" id="esm-karbar" required />
+        </div>
+        <p id="error-jaykhali"></p>
+        <div id="style-btn-aside">
+          <button type="reset" class="btn btn-motafavet" id="enseraf-btn">
+            انصراف
+          </button>
+          <button type="submit" class="btn">تایید</button>
+        </div>
+      </form>
+    </aside>
+    <main>
+      <section id="ehraz-bazikon">
+        <ol>
+          <li>
+            <article id="etelaat-bazikon-1">
+              <h2>بازیکن اول</h2>
+              <h3>نام بازیکن</h3>
+              <p>X</p>
+              <button
+                class="btn btn-motafavet"
+                id="virayesh-1"
+                data-bazikon="1"
+              >
+                ویرایش
+              </button>
+            </article>
+          </li>
+          <li>
+            <article id="etelaat-bazikon-2">
+              <h2>بازیکن دوم</h2>
+              <h3>نام بازیکن</h3>
+              <p>O</p>
+              <button
+                class="btn btn-motafavet"
+                id="virayesh-2"
+                data-bazikon="2"
+              >
+                ویرایش
+              </button>
+            </article>
+          </li>
+        </ol>
+        <button class="btn" id="shoro-bazi-btn">شروع بازی جدید</button>
+        <p id="esm-eshtebah"></p>
+      </section>
+      <section id="bazi-kardan">
+        <article id="bakhti">
+          <h2>
+            باریکلا <span id="esm-karbar-barandeh">نام بازیکن</span>، تو برنده
+            شدی
+          </h2>
+          <p>اگه میخوای یک بار دیگه بازی کنی، روی "شروع بازی جدید" کلیک کن</p>
+        </article>
+        <p>!<span id="esm-bazikon-nobat">نام بازیکن</span> نوبت توعه</p>
+        <ol id="safhe-bazi">
+          <li data-col="1" data-row="1"></li>
+          <li data-col="2" data-row="1"></li>
+          <li data-col="3" data-row="1"></li>
+
+          <li data-col="1" data-row="2"></li>
+          <li data-col="2" data-row="2"></li>
+          <li data-col="3" data-row="2"></li>
+
+          <li data-col="1" data-row="3"></li>
+          <li data-col="2" data-row="3"></li>
+          <li data-col="3" data-row="3"></li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <p>ساخته شده توسط حامد قادری و سجاد دهقانی</p>
+      <div id="insta">
+        <img src="icon/insta.png" alt="لوگوی اینستاگرام" />
+        <div id="linkha">
+          <a href="https://instagram.com/_hamedghaderi/">اینستاگرام حامد</a>
+          <a href="https://instagram.com/sa_jad_dehghani/">اینستاگرام سجاد</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

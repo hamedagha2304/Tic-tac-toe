@@ -1,0 +1,85 @@
+#modal-style {
+  text-align: center;
+}
+
+#modal-style h2 {
+  margin: 0.5rem 0;
+}
+
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-control input {
+  font: inherit;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  width: 15rem;
+  padding: 0.35rem;
+}
+
+.error-div label {
+  color: rgb(132, 2, 2);
+}
+
+.error-div input {
+  border-color: rgb(132, 2, 2);
+  color: rgb(132, 2, 2);
+  background-color: rgb(253, 219, 219);
+}
+
+form p strong {
+  color: rgb(44, 137, 16);
+}
+
+#ehraz-bazikon {
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#ehraz-bazikon ol {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#ehraz-bazikon li {
+  margin: 1rem;
+  padding: 1rem;
+  width: 50%;
+  background-color: rgb(243, 227, 255);
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#ehraz-bazikon article p {
+  font-size: 3.25rem;
+  margin: 0;
+}
+
+@media (max-width: 26rem) {
+  #ehraz-bazikon {
+    margin: 1.5rem auto;
+  }
+
+  #ehraz-bazikon ol {
+    height: 17rem;
+  }
+
+  #ehraz-bazikon article p {
+    font-size: 2.25rem;
+  }
+
+  #ehraz-bazikon article h2 {
+    margin-top: 0.75rem;
+  }
+}

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: tanha;
+  src: url("tanha.woff2") format("woff2");
+}
+
+body {
+  font-family: tanha;
+  margin: 0;
+  height: 100%;
+  color: rgb(44, 41, 44);
+  background-color: rgb(247, 239, 247);
+}
+
+#header-asli {
+  background-color: rgb(140, 0, 255);
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.btn {
+  font-family: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(140, 0, 255);
+  border: 1px solid rgb(140, 0, 255);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-motafavet {
+  background-color: transparent;
+  border-color: transparent;
+  color: rgb(140, 0, 255);
+}
+
+.btn:hover {
+  background-color: rgb(79, 10, 190);
+  border-color: rgb(79, 10, 190);
+}
+
+.btn-motafavet:hover {
+  background-color: rgb(245, 232, 255);
+  border-color: transparent;
+}
+
+footer {
+  background-color: rgb(140, 0, 255);
+  padding: 1rem;
+  margin: 0;
+}
+
+footer img {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+#insta {
+  display: flex;
+  justify-content: center;
+}
+
+#linkha {
+  margin-left: 1rem;
+}
+
+@media (max-width: 26rem) {
+  #header-asli {
+    padding: 1rem;
+  }
+
+  #header-asli h1 {
+    font-size: 1.75rem;
+  }
+
+  #header-asli p {
+    font-size: 1.25rem;
+  }
+}
